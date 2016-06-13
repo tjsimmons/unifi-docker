@@ -3,6 +3,7 @@ MAINTAINER T.J. Simmons <tj@tjsimmons.net>
 
 COPY sources.list /etc/apt/sources.list
 
+RUN apt-get install apt-transport-https
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv C0A52C50
 RUN apt-get update && apt-get install -y unifi supervisor
 
