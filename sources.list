@@ -61,7 +61,3 @@ deb http://security.ubuntu.com/ubuntu xenial-security universe
 # deb-src http://security.ubuntu.com/ubuntu xenial-security universe
 deb http://security.ubuntu.com/ubuntu xenial-security multiverse
 # deb-src http://security.ubuntu.com/ubuntu xenial-security multiverse
-
-## Debian/Ubuntu Unifi
-# deb http://www.ubnt.com/downloads/unifi/debian unifi4 ubiquiti
-deb http://www.ubnt.com/downloads/unifi/debian stable ubiquiti
