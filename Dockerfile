@@ -1,6 +1,8 @@
 FROM ubuntu:16.04
 MAINTAINER T.J. Simmons <tj@tjsimmons.net>
 
+RUN ln -s /data /var/lib/unifi
+
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv C0A52C50
 RUN apt-get update
 RUN apt-get install -y apt-transport-https
