@@ -12,4 +12,4 @@ RUN apt-get update && apt-get install -y unifi
 EXPOSE 8080
 EXPOSE 8443
 
-ENTRYPOINT ["/usr/lib/unifi/bin/unifi.init start"]
+ENTRYPOINT ["/usr/lib/unifi/bin/unifi.init", "start"]
