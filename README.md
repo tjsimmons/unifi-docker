@@ -1,5 +1,5 @@
 # HOW TO RUN
-docker create --net=host --name unifi -v </path/to/datastore>:/data tjsimmons/unifi
+docker create --net=host --name unifi -v </path/to/datastore>:/data tjsimmons/unifi-docker
 
 # THE DATASTORE
 The datastore passed in is used as a symlink for the Unifi /var/lib/unifi folder.
